@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+.container{
+    
+}
+.wrapper{
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+    width: 60%;
+    height: auto;
+    margin: 100px auto;
+}
+
+.child{
+    padding: 30px 30px;
+}
+
+.box1{
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+.box2{
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+.box3{
+    background-color: hsl(179, 100%, 13%);
+   
+}
+
+.child button{
+    margin: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+
+.child p{
+    margin-bottom: 30px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 95%);
+}
+
+.box1 button{
+    color:hsl(31, 77%, 52%);
+}
+
+.box1 button:active{
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+    background-color: hsl(31, 77%, 52%);
+    cursor: grab;
+}
+
+.box2 button{
+    color: hsl(184, 100%, 22%);
+}
+
+.box2 button:active{
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+    background-color: hsl(184, 100%, 22%);
+    cursor: grab;
+}
+
+.box3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+.box3 button:active{
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+    background-color: hsl(179, 100%, 13%);
+    cursor: grab;
+}
+
+.attribution{
+    color:black;
+    margin-top: -50px;
+}
+
+@media (max-width: 375px){
+    .wrapper{
+        display: block;
+        width: 90%;
+    }
+}
